@@ -1,0 +1,81 @@
+* {
+  box-sizing: content-box;
+  color: #060606;
+  border: none;
+  text-decoration-style: none;
+  font-family: "nunito";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #fcfcfc;
+  overflow: hidden;
+}
+
+a,
+b {
+  color: #2d2da1 !important;
+}
+
+button {
+  background: #83c9a0;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 0.25em;
+  transition: background 0.25s;
+}
+button:hover {
+  cursor: pointer;
+  background: #0b8f42;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  background-color: #83c9a0;
+}
+
+.sign_in {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 500px;
+  width: 100vw;
+  margin: 0 auto;
+}
+.sign_in span {
+  margin-left: 0.25em;
+}
+.sign_in input {
+  margin: 0.25em 0em;
+  padding: 0.5em;
+  background: #83c9a0;
+  color: #060606;
+  border-radius: 0.25em;
+}
+.sign_in button:last-child,
+.sign_in .error_response {
+  grid-column: 1/3;
+}
+.sign_in .error_response {
+  color: #2d2da1;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+}
+
+/*# sourceMappingURL=/main.847ea5f6.css.map */
